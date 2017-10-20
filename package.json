@@ -1,0 +1,29 @@
+{
+  "name": "intern-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=development && node app.js",
+    "start": "set NODE_ENV=production && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhachory1/intern-blog.git"
+  },
+  "author": "Evan Bechtol, Zhachory Volker",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Zhachory1/intern-blog/issues"
+  },
+  "homepage": "https://github.com/Zhachory1/intern-blog#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.1",
+    "mongoose": "^4.12.0",
+    "morgan": "^1.9.0",
+    "rotating-file-stream": "^1.3.2",
+    "yargs": "^9.0.1"
+  }
+}
